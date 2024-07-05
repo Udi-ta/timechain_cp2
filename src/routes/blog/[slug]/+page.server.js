@@ -1,8 +1,8 @@
-// import { sql } from "@vercel/postgres";
+import { sql } from "@vercel/postgres";
 
 
-// export async function load({params, locals}){
-//     return {
-//         names: await sql`SELECT * from NAMES`
-//     }
-// }
+export async function load({params, locals}){
+    return {
+        names: await sql `SELECT * from NAMES`
+    }
+}
