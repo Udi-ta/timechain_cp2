@@ -27,5 +27,8 @@
   "type": "module",
   "dependencies": {
     "@vercel/postgres": "^0.9.0"
-  }
+  },
+  "overrides": {
+    "string-width": "4.2.3"
+ }
 }
